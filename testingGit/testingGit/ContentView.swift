@@ -17,6 +17,13 @@ struct ContentView: View {
             Text("Nema me")
             
             Text("Novi text u contentu")
+            
+            Text("Text branch")
+        }
+        
+        HStack {
+            Text("Opet novi text")
+                .padding()
         }
     }
 }
